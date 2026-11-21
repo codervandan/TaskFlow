@@ -1,0 +1,14 @@
+/* Third-party styles */
+@import url("../vendor/normalize.css");
+
+/* Global styles */
+@import url("./globals.css");
+
+/* BEM component styles */
+@import url("../blocks/page/page.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/main/main.css");
+@import url("../blocks/todo/todo.css");
+@import url("../blocks/task-form/task-form.css");
+@import url("../blocks/task/task.css");
+@import url("../blocks/footer/footer.css");
