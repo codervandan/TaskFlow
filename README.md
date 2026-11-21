@@ -2,6 +2,10 @@
 
 A responsive task management application built with **HTML5, CSS3, and vanilla JavaScript**. TaskFlow helps users organize daily activities, track completed tasks, and preserve their progress using browser local storage.
 
+## Screenshots
+
+![alt text](image.png)
+
 ## Features
 
 - **Task management:** Add, complete, and delete tasks dynamically.
