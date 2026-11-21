@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple task management application to help you organize your tasks and increase productivity."
+    />
+    <meta name="author" content="Daniel Quintana" />
+    <meta
+      name="keywords"
+      content="task management, productivity, to-do list, task organizer, task tracker"
+    />
+    <title>Simple To-Do App</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="data:," />
+
+    <script type="module" src="./scripts/index.js"></script>
+  </head>
+
+  <body class="page">
+    <!-- Application interface goes here -->
+    <header class="header">
+      <h1 class="header__title">TaskFlow</h1>
+    </header>
+    <main class="main">
+      <section class="todo">
+        <h2 class="todo__title">My Tasks</h2>
+        <p class="todo__description">Stay organized and get things done.</p>
+        <form class="task-form" id="task-form">
+          <label class="task-form__label" for="task-input"
+            >Add a new task:</label
+          >
+          <input
+            class="task-form__input"
+            type="text"
+            id="task-input"
+            name="task"
+            placeholder="Enter your task here..."
+            minlength="2"
+            maxlength="100"
+            aria-describedby="task-input-error"
+            required
+          />
+          <p
+            class="task-form__error"
+            id="task-input-error"
+            role="alert"
+            hidden
+          ></p>
+          <button class="task-form__button" type="submit">Add Task</button>
+        </form>
+        <p class="todo__storage-warning" role="alert" hidden>
+          Your changes could not be saved. They may be lost when you refresh the
+          page.
+        </p>
+        <div class="todo__tasks">
+          <h3 class="todo__subtitle">Your Tasks</h3>
+          <ul class="todo__list">
+            <p class="todo__empty" hidden>
+              No tasks yet. Add a task above to get started.
+            </p>
+            <!-- <li class="task">
+              <input
+                class="task__checkbox"
+                type="checkbox"
+                id="task-1"
+                checked
+              />
+              <label class="task__label" for="task-1"
+                >Review JavaScript fundamentals</label
+              >
+              <button
+                type="button"
+                class="task__delete-button"
+                aria-label="Delete task"
+              >
+                Delete
+              </button>
+            </li>
+            <li class="task">
+              <input
+                class="task__checkbox"
+                type="checkbox"
+                id="task-2"
+                checked
+              />
+              <label class="task__label" for="task-2"
+                >Practice BEM methodology</label
+              >
+              <button
+                type="button"
+                class="task__delete-button"
+                aria-label="Delete task"
+              >
+                Delete
+              </button>
+            </li>
+            <li class="task">
+              <input class="task__checkbox" type="checkbox" id="task-3" />
+              <label class="task__label" for="task-3"
+                >Build my to-do application</label
+              >
+              <button
+                type="button"
+                class="task__delete-button"
+                aria-label="Delete task"
+              >
+                Delete
+              </button>
+            </li> -->
+          </ul>
+          <p class="todo__summary">2 of 3 tasks completed</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">© 2026 TaskFlow - Your peronal task manager.</p>
+    </footer>
+  </body>
+</html>
