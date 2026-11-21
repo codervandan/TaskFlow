@@ -2,6 +2,12 @@
 
 A responsive task management application built with **HTML5, CSS3, and vanilla JavaScript**. TaskFlow helps users organize daily activities, track completed tasks, and preserve their progress using browser local storage.
 
+## Live Demo
+
+[View Live Application](https://codervandan.github.io/TaskFlow/)
+
+[View Source Code](https://github.com/codervandan/TaskFlow)
+
 ## Screenshots
 
 ![alt text](image.png)
