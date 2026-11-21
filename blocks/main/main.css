@@ -4,3 +4,9 @@
   flex: 1;
   margin: 32px auto;
 }
+
+@media screen and (max-width: 680px) {
+  .main {
+    margin: 12px auto 24px;
+  }
+}

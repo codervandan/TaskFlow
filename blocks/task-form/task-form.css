@@ -58,3 +58,24 @@
 .task-form__input[aria-invalid="true"] {
   border-color: #dc2626;
 }
+
+@media screen and (max-width: 680px) {
+  .task-form {
+    gap: 8px;
+  }
+
+  .task-form__label {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .task-form__input {
+    min-height: 44px;
+    padding: 10px 12px;
+  }
+
+  .task-form__button {
+    min-height: 44px;
+    padding: 10px 16px;
+  }
+}

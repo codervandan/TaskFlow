@@ -54,16 +54,25 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 480px) {
+/* Mobile layout */
+
+@media screen and (max-width: 680px) {
   .todo {
-    padding: 20px;
+    padding-top: 12px;
   }
 
   .todo__title {
+    margin: 0;
     font-size: 24px;
+    text-align: center;
   }
 
-  .todo__subtitle {
+  .todo__description {
     font-size: 16px;
+    text-align: center;
+  }
+
+  .todo__tasks {
+    margin-top: 40px;
   }
 }
