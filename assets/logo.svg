@@ -1,0 +1,51 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1024"
+  height="1024"
+  viewBox="0 0 1024 1024"
+  fill="none"
+>
+  <!-- Checklist outline -->
+  <rect
+    x="236"
+    y="196"
+    width="552"
+    height="632"
+    rx="100"
+    stroke="#ffffff"
+    stroke-width="56"
+  />
+
+  <!-- First completed task -->
+  <path
+    d="M326 411 L386 471 L480 363"
+    stroke="#ffffff"
+    stroke-width="52"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M549 421 H684"
+    stroke="#ffffff"
+    stroke-width="48"
+    stroke-linecap="round"
+  />
+
+  <!-- Second completed task -->
+  <path
+    d="M326 635 L386 695 L480 587"
+    stroke="#ffffff"
+    stroke-width="52"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <path
+    d="M549 645 H684"
+    stroke="#ffffff"
+    stroke-width="48"
+    stroke-linecap="round"
+  />
+</svg>

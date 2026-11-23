@@ -11,3 +11,12 @@
   font-weight: 700;
   line-height: 1.2;
 }
+
+/* Mobile safe area */
+@media screen and (max-width: 680px) {
+  .header {
+    padding-top: calc(
+      16px + var(--safe-area-inset-top, env(--safe-area-inset-top, 0px))
+    );
+  }
+}

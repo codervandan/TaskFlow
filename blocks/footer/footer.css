@@ -11,3 +11,12 @@
   font-size: 14px;
   line-height: 1.5;
 }
+
+/* Mobile safe area */
+@media screen and (max-width: 680px) {
+  .footer {
+    padding-bottom: calc(
+      16px + var(--safe-area-inset-bottom, env(--safe-area-inset-bottom, 0px))
+    );
+  }
+}
