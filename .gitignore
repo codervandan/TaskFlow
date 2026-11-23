@@ -1,2 +1,17 @@
+
+# Dependencies
 node_modules/
+
+# Generated web build
 www/
+
+# Android signing keys
+*.jks
+*.keystore
+
+# Android signing configuration
+android/key.properties
+android/keystore.properties
+
+# Android local configuration
+android/local.properties
