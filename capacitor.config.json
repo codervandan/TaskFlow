@@ -1,0 +1,12 @@
+{
+  "appId": "com.codervandan.taskflow",
+  "appName": "TaskFlow",
+  "webDir": "www",
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "LIGHT",
+      "hidden": false
+    }
+  }
+}

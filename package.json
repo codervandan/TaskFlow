@@ -1,0 +1,31 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A responsive task management application built with **HTML5, CSS3, and vanilla JavaScript**. TaskFlow helps users organize daily activities, track completed tasks, and preserve their progress using browser local storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build-tools/build-web.mjs",
+    "mobile:sync": "npm run build && cap sync android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codervandan/taskflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/codervandan/taskflow/issues"
+  },
+  "homepage": "https://github.com/codervandan/taskflow#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2"
+  }
+}
